@@ -6,7 +6,7 @@ import (
 
 func openfileHandler(w http.ResponseWriter, req *http.Request) {
 	w.Header().Set("Content-Type", "text/plain; charset=utf-8")
-	http.ServeFile(w, req, "./lesson1/fileserver/main.go")
+	http.ServeFile(w, req, "./sprint1/fileserver/main.go")
 }
 
 func main() {
