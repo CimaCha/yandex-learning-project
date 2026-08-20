@@ -5,14 +5,10 @@ go 1.25.1
 require (
 	github.com/caarlos0/env/v11 v11.4.1
 	github.com/go-chi/chi/v5 v5.3.0
+	github.com/golang/mock v1.6.0
 	github.com/pelletier/go-toml v1.9.5
 	github.com/stretchr/testify v1.11.1
 	gopkg.in/h2non/gentleman.v2 v2.0.5
-)
-
-require (
-	github.com/josharian/intern v1.0.0 // indirect
-	github.com/mailru/easyjson v0.9.2 // indirect
 )
 
 require (
