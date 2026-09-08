@@ -10,6 +10,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.22
 	github.com/pelletier/go-toml v1.9.5
 	github.com/stretchr/testify v1.11.1
+	golang.org/x/sync v0.21.0
 	gopkg.in/h2non/gentleman.v2 v2.0.5
 	modernc.org/sqlite v1.55.0
 )
