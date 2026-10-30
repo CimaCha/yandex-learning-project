@@ -23,5 +23,8 @@ func main() {
 		g.Go(name.Hello)
 	}
 
-	g.Wait()
+	err := g.Wait()
+	if err != nil {
+		return
+	}
 }
